@@ -28,15 +28,21 @@ Git Command (done on your local system via CLI):
 ```
 git clone https://github.com/ST-R/PTC.git
 ```
-Once the repo has been cloned. Complete the following:
+Once the repo has been cloned, complete the following:
 
-Open your CLI and navigate to your cloned repository directory and Run the following command:
+Open your CLI and navigate to your cloned repository directory and run the following command:
 
 ```bash
 docker-compose up --build 
 ```
 
-Confirm your container is running successfully, you should have the following Container and images:
+Confirm your container is running successfully by using the below command in your CLI:
+
+'''
+docker ps
+'''
+
+you should have the following container and images:
 
  ```
  Container: 
@@ -45,4 +51,4 @@ Images:
    - ptc-php-fpm
    - nginx
 ```
-You can now access Laravel from your browser using http://localhost:8000/
+You can now access Laravel from your browser using; http://localhost:8000/

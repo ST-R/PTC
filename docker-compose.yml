@@ -13,5 +13,7 @@ services:
     volumes:
       - ./laravel-app:/var/www/html
       - ./nginx:/etc/nginx/conf.d/
+      - ./nginx:/etc/ssl/nginx
     ports:
       - "8000:80"
+      - "8001:443"

@@ -1,4 +1,4 @@
-# Prevalent Technical Challenge "# PTC" 
+# "# TC" 
 
 ## Getting Started:
 
@@ -9,7 +9,6 @@
 
 >  1. [Docker](https://www.docker.com/products/docker-desktop/)
 >  2. [Git](https://git-scm.com/download/)
->  3. [GitHub account](https://github.com/)
 
 To confirm Docker and Git have been installed successfully, you can run the following via CLI:
 
@@ -25,13 +24,13 @@ Fork my repo from [GitHub](https://github.com/ST-R/PTC) to your own GitHub accou
 
 Clone the repository to your local device. Guide; [how to clone a repository using Git and GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
-Git Command:
+Git Command (done on your local system via CLI):
 ```
 git clone https://github.com/ST-R/PTC.git
 ```
 Once the repo has been cloned. Complete the following:
 
-Open your CLI Navigate to your cloned repository Run the following command:
+Open your CLI and navigate to your cloned repository directory and Run the following command:
 
 ```bash
 docker-compose up --build 

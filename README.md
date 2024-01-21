@@ -1,8 +1,8 @@
-# Prevaent Technical Challenge "# PTC" 
+# Prevalent Technical Challenge "# PTC" 
 
-## How to run:
+## Getting Started:
 
-- Prerequisites
+### Prerequisites
 
     Apps required:
     
@@ -11,14 +11,21 @@
 >  2. [Git](https://git-scm.com/download/)
 >  3. [GitHub account](https://github.com/)
 
+To confirm Docker and Git have been installed successfully, you can run the following via CLI:
+
+```
+Docker --version
+git --version
+```
 
 
+## Instructions to stand up a Laravel container using Docker:
 
-## Instructions to stand up Laravel:
-
- Fork the repo from [GitHub](https://github.com/ST-R/PTC) on your own account. Guide; [how to fork a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+Fork my repo from [GitHub](https://github.com/ST-R/PTC) to your own GitHub account. Guide; [how to fork a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 
 Clone the repository to your local device. Guide; [how to clone a repository using Git and GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+
+Git Command:
 ```
 git clone https://github.com/ST-R/PTC.git
 ```
@@ -30,7 +37,7 @@ Open your CLI Navigate to your cloned repository Run the following command:
 docker-compose up --build 
 ```
 
-Confirm your containers is running successfully, you should have the following Container and images:
+Confirm your container is running successfully, you should have the following Container and images:
 
  ```
  Container: 

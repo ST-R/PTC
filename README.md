@@ -36,7 +36,7 @@ Open your CLI and navigate to your cloned repository directory and run the follo
 docker-compose up --build 
 ```
 
-Confirm your container is running successfully by using the below command in your CLI:
+Confirm your images are running successfully by using the below command in your CLI:
 
 ```
 docker ps

@@ -38,9 +38,9 @@ docker-compose up --build
 
 Confirm your container is running successfully by using the below command in your CLI:
 
-'''
+```
 docker ps
-'''
+```
 
 you should have the following container and images:
 

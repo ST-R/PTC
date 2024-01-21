@@ -51,4 +51,4 @@ Images:
    - ptc-php-fpm
    - nginx
 ```
-You can now access Laravel from your browser using; http://localhost:8000/ or via https://localhost:8001 
+You can now access Laravel from your browser via http and https using; http://localhost:8000/ and https://localhost:8001 

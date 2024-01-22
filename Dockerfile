@@ -18,9 +18,8 @@ RUN apk update && apk add --no-cache \
 # Configure and install PHP extensions
 RUN docker-php-ext-install gettext intl pdo_mysql
 
-# Copy Composer from the official image (if needed)
-# Note: Composer might already be included in the PHP Alpine image
+# Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Create a directory for SSL certificates
+# Directory for SSL certificates
 RUN mkdir -p /etc/ssl/nginx

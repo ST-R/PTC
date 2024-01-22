@@ -52,3 +52,19 @@ Images:
    - nginx
 ```
 You can now access Laravel from your browser via http and https using; http://localhost:8000/ and https://localhost:8001 
+
+1. What is containerizaion?
+
+   - Containerization is a technology used to package software code along with all its dependencies into a single 'container'. Its benefits are:
+
+      - Consistency Across Environments
+      - Isolation
+      - Resource Efficiency
+      - Rapid Deployment and Auto-Scaling
+      - Microservices Architecture
+      - Self Healing
+
+2. Compare the pros and cons of deploying Jenkins using a pre-built AMI (such as 
+Bitnami package for Jenkins) vs defining and deploying a custom docker image?
+
+   - Using a pre-built AMI like Bitnami's package for Jenkins is generally easier and quicker to set up, with less technical overhead but limited customization. On the other hand, a custom Docker image offers greater flexibility and control, better scalability, and portability, but requires more technical expertise and ongoing maintenance.

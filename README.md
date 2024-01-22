@@ -49,7 +49,7 @@ you should have the following container and images:
    - ptc
 Images:
    - ptc-php-fpm
-   - nginx
+   - nginx:alpine
 ```
 You can now access Laravel from your browser via http and https using; http://localhost:8000/ and https://localhost:8001 
 
